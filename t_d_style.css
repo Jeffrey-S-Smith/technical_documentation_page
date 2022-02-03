@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap');
+
+*
+{
+  box-sizing: border-box;
+}
+body
+{
+  font-family: 'EB Garamond', serif;  
+  display: flex;
+  margin: 0;
+  text-align: center;
+}
+
+nav
+{
+  background-color: #eee;
+  border-right: 2px solid #777;
+  max-width: 400px;
+  height: 100vh;
+}
+
+nav a
+{
+  border-top: 1px solid #777;
+  color: #000;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+}
+
+nav header
+{
+  padding: 15px;
+}
+
+main
+{
+  flex: 1;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+section
+{
+  padding: 20px;
+  line-height: 1.5;
+}
+
+header 
+{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.red_text
+{
+  color: red;
+}
+
+hr
+{
+  height: 20px;
+  width: 60%;        
+}
+
+.references
+{
+  list-style-type: circle;
+}
+
+.main-section
+{
+  font-family: arial,x-locale-body,sans-serif;
+  letter-spacing: -.0027777778rem; 
+  font-size: 100%;
+}
+
+h1 
+{
+  text-align: center;
+}
+
+@media only screen and (max-width: 320px) {
+	body 
+  {
+		font-size: 2em;
+  }
+}
+
+@media screen and (max-height: 450px) {
+	.nav-link {
+		padding-top: 15px;
+	}
+	.nav-link a {
+		font-size: 18px;
+	}
+}
+
+code {
+	display: block;
+	text-align: left;
+	white-space: pre;
+	line-height: 2.5;
+	background-color: #e0ebeb;
+	padding: 15px;
+	margin: 10px;
+	color: #000099;
+	border-radius: 5px;
+}
+
+footer
+{
+  text-align: center;
