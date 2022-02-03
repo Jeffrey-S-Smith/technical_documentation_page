@@ -1,6 +1,6 @@
 # technical_documentation_page
 
-## Author: Jeffrey Smith
+## Author:  Jeffrey Smith
 
 ### Objective: Build a Technical Documentation Page
 
